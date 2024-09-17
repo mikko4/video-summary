@@ -65,7 +65,7 @@ os.remove(f"{uid}.wav")
 
 print(f"[INFO] Cleaning up files")
 
-print(response)
+# print(response)
 res = response['choices'][0]['message']['content']
 print(res)
 
